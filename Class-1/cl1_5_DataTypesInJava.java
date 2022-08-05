@@ -56,7 +56,7 @@ boolean=      1 bytes 8 bits
 int=          4 bytes 32 bits
 long=         8 bytes 64 bits
 float=        4 bytes 32 bits
-short=        8 bytes 64 bits
+double=        8 bytes 64 bits
 
 
 int, long, float, double, char, boolean
