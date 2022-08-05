@@ -15,5 +15,6 @@ System.out.print(" Please enter second number: ");
 int b = sc.nextInt();
 int sum = a+b;
 System.out.println(" Total of the Numbers is: "+sum);
+System.out.println("Everything looks nice here.");
   }
 }
