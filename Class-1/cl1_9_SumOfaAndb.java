@@ -1,8 +1,10 @@
  /* 
-  ! 8. SUM of a & B using SCANNER object:
+  ! 9. Product of a & b:
+
+? What it means Product of a & b?
+* a*b is called the PRODUCT of a & b
 
 
- */
 import java.util.*;
 public class cl1_9_SumOfaAndb {
   public static void main(String args[]){
@@ -13,8 +15,22 @@ public class cl1_9_SumOfaAndb {
 int a = sc.nextInt();
 System.out.print(" Please enter second number: ");
 int b = sc.nextInt();
-int sum = a+b;
-System.out.println(" Total of the Numbers is: "+sum);
-System.out.println("Everything looks nice here.");
+int product = a*b;
+System.out.println(" Product of A & B is: "+product);
+
+  }
+}
+  */
+
+import java.util.*;
+public class cl1_9_SumOfaAndb {
+  public static void main(String args[]){
+    Scanner sc= new Scanner(System.in);
+    System.out.print("Please enter the value of A:");
+    int a= sc.nextInt();
+    System.out.print("Please enter the value of B:");
+    int b= sc.nextInt();
+
+    System.out.println("Product of A & B is: " +a*b);
   }
 }
