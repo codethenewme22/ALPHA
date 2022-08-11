@@ -8,9 +8,9 @@ public class cl1_Ex_2 {
 
     System.out.println("Please enter the the value of 2 SIDES of a SQUARE: ");
     Scanner sc = new Scanner(System.in);
-    int a= sc.nextInt();
+    int s= sc.nextInt();
 
-    int area= (a*a);
+    int area= (s*s);
     System.out.println("The area of the SQUARE is :"+ area);
   }
   
