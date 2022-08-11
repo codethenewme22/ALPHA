@@ -23,6 +23,5 @@ public class TypesOfOperators {
   
   public static void main (String []args){
 
-
   }
 }
