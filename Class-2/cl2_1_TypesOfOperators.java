@@ -19,10 +19,10 @@
 
 
  */
-public class TypesOfOperators {
+public class cl2_1_TypesOfOperators {
   
   public static void main (String []args){
-
+System.out.println("Hello Operators..!");
 
   }
 }
