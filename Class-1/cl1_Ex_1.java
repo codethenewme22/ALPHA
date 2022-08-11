@@ -1,5 +1,5 @@
 /*
- ! Question-1: In a program,input3numbers:A,BandC.You have to output the average of these 3 numbers
+ ! Question-1: In a program,input3numbers:A,B and C.You have to output the average of these 3 numbers
  */
 import java.util.*; 
 public class cl1_Ex_1{
