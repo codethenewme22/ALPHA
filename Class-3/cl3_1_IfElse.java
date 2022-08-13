@@ -25,9 +25,17 @@ System.out.print("Please enter your age: ");
 int age = sc.nextInt();
 
     if (age>=18){
-      System.out.println("You are allowed to enter in to the CLUB...!!!");
+      System.out.println("You are just allowed to enter in to the CLUB...!!!");
       
-    }
+       if (age>=20 && age<=50){
+         System.out.println("You can have all the drinks in the CLUB.");
+
+        
+      }
+      
+      }
+
+  
     else{
       System.out.println("Sorry KIDDO, go back to your MOM.");
 
