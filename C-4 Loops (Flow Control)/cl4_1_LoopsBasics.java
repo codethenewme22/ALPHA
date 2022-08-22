@@ -10,7 +10,7 @@
 public class cl4_1_LoopsBasics{
   public static void main(String args[]){
     Scanner sc = new Scanner(System.in);
-    System.out.println("Please enter a W")
+    System.out.println("Please enter a W");
     char m = sc.nextChar();
 
   }

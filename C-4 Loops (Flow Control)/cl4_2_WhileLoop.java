@@ -14,12 +14,12 @@ System.out.println("Whatever you will write, it will be echoed 100 times.");
 System.out.print("Please enter TEXT as you wish: ");
 String text= sc. nextLine();
 int counter=0;
-while(counter<100000){
+while(counter<99){
     System.out.println(text);
     counter++;
     
   }
-  System.out.println(text+" was printed 100  times");
+  System.out.println(text+" was printed " + counter+  " times.");
 
   }
 
