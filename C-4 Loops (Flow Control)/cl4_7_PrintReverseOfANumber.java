@@ -7,7 +7,7 @@
 todo If we want to GET the LAST DIGIT of a NUMBER: number%10 = LAST DIGIT will be there.
 todo If we want to REMOVE the LAST DIGIT of a NUMBER: number/10 =  LAST DIGIT will be REMOVED 
  */
-public class cl4_6_PrintReverseOfANumber {
+public class cl4_7_PrintReverseOfANumber {
   public static void main (String args []){
 
     
