@@ -8,7 +8,7 @@ public static void main(String[] args){
  for(int i=1; i<=10; i++)
  {
    if(i==7){
-    continue;
+    continue; // It means ITERATION will be skipped when i will be 7 and CONTINUE to the next ITERATION. 
 }
     System.out.println(i);
 }
