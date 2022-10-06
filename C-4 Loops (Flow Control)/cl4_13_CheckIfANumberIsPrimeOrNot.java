@@ -9,25 +9,28 @@ public class cl4_13_CheckIfANumberIsPrimeOrNot {
 Scanner sc = new Scanner(System.in);
 int n = sc.nextInt();
 
-boolean isPrime= true;
-for(int i=2; i<=Math.sqrt(n); i++) {
-  if(n% i==0){
-isPrime=false;
-
+if (n==2){
+  System.out.println(n+ " is a PRIME Number");
+} else{
+  boolean isPrime= true;
+  for(int i=2; i<=Math.sqrt(n); i++){
+    if(n%i==0){
+      isPrime=false;
+    }
   }
 
-else{
   if(isPrime==true){
-    System.out.println("Hurrah, "+n+" is a PRIME NUMBER...!");
-  }
-  else{
-  
-    System.out.println("Sorry, "+n+" is NOT a PRIME NUMBER....!");
-  }
+System.out.println(n+" is a PRIME Number.");
+}
+else{
+  System.out.println(n+" is a PRIME Number.");
 
 }
 
 }
+
+
+
 
 
   }
